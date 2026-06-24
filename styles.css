@@ -1068,19 +1068,29 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 @media(max-width:768px){
 
     .flowers{
-        transform:scale(0.4);
+        transform:scale(0.8);
     }
 
-    .rose{
-        font-size:50px;
+    .flower{
+        bottom:5vmin;
     }
 
-    .rose-left{
-        left:-90px;
+    #loveLetter{
+        width:90%;
+        padding:20px;
+        font-size:15px;
     }
 
-    .rose-right{
-        right:-90px;
+    #messageContainer{
+        right:10px;
+    }
+
+    #messageIcon{
+        font-size:35px;
+    }
+
+    #clickMe{
+        font-size:14px;
     }
 }
 #messageIcon{
