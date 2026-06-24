@@ -1101,11 +1101,11 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 
 @keyframes pulse{
     0%,100%{
-        transform:translateY(-50%) scale(1);
+        transform:scale(1);
     }
 
     50%{
-        transform:translateY(-50%) scale(1.15);
+        transform:scale(1.15);
     }
 }
 
@@ -1182,6 +1182,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     color:white;
     font-size:11px;
     text-shadow:0 0 5px white;
+    white-space:nowrap;
 }
 
 @keyframes blink{
