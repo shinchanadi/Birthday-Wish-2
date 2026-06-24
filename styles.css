@@ -1169,7 +1169,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     transform:translateY(-50%);
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:25px;
     z-index:999;
 }
 
