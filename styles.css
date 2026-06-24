@@ -1168,21 +1168,19 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 }
 
 #messageContainer{
-    position:fixed;
-    right:25px;
-    top:55%;
-    transform:translateY(-50%);
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    gap:8px;
-    z-index:9999;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 99999;
 }
 
 #clickMe{
     color:white;
     font-size:11px;
-    opacity:.8;
     text-shadow:0 0 5px white;
 }
 
