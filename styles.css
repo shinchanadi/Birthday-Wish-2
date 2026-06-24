@@ -1179,19 +1179,4 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     z-index: 99999;
 }
 
-#clickMe{
-    color:white;
-    font-size:11px;
-    text-shadow:0 0 5px white;
-    white-space:nowrap;
-}
 
-@keyframes blink{
-    0%,100%{
-        opacity:1;
-    }
-
-    50%{
-        opacity:.3;
-    }
-}
