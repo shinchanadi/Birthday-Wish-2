@@ -1174,21 +1174,23 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 
 #messageContainer{
     position:fixed;
-    right:20px;
-    top:50%;
-    transform:translateY(-50%);
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
     display:flex;
+    flex-direction:column;
     align-items:center;
-    gap:25px;
+    gap:4px;
     z-index:999;
 }
 
 #clickMe{
     color:white;
-    font-size:18px;
-    font-weight:bold;
+    font-size:12px;
+    font-weight:500;
+    opacity:0.8;
     animation:blink 1.5s infinite;
-    text-shadow:0 0 10px white;
+    text-shadow:0 0 5px white;
 }
 
 @keyframes blink{
