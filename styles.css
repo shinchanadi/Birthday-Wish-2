@@ -1094,13 +1094,8 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     }
 }
 #messageIcon{
-    position:fixed;
-    right:30px;
-    top:50%;
-    transform:translateY(-50%);
-    font-size:40px;
+    font-size:26px;
     cursor:pointer;
-    z-index:999;
     animation:pulse 2s infinite;
 }
 
@@ -1174,22 +1169,20 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 
 #messageContainer{
     position:fixed;
-    bottom:20px;
-    left:50%;
-    transform:translateX(-50%);
+    right:25px;
+    top:55%;
+    transform:translateY(-50%);
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     align-items:center;
-    gap:4px;
-    z-index:999;
+    gap:8px;
+    z-index:9999;
 }
 
 #clickMe{
     color:white;
-    font-size:12px;
-    font-weight:500;
-    opacity:0.8;
-    animation:blink 1.5s infinite;
+    font-size:11px;
+    opacity:.8;
     text-shadow:0 0 5px white;
 }
 
