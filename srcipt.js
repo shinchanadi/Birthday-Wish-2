@@ -9,17 +9,28 @@ window.onload = () => {
 
 const icon = document.getElementById("messageIcon");
 const passwordBox = document.getElementById("passwordBox");
+const music = document.getElementById("bgMusic");
+
+music.volume = 0.3;
+
+document.addEventListener("click", () => {
+
+    if (music.paused) {
+        music.play();
+    }
+
+}, { once: true });
 
 icon.addEventListener("click", () => {
     passwordBox.style.display = "block";
 });
 
-function checkPassword(){
+function checkPassword() {
 
     const password =
         document.getElementById("secretPassword").value;
 
-    if(password === "monya23"){
+    if (password === "monya23") {
 
         passwordBox.style.display = "none";
 
